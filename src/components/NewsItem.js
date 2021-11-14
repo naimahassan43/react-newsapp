@@ -10,7 +10,7 @@ export class NewsItem extends Component {
             src={
               imgUrl
                 ? imgUrl
-                : "https://i.ytimg.com/vi/ihiw-BP1pHI/hqdefault.jpg"
+                : "https://i2-prod.mirror.co.uk/news/weird-news/article25445750.ece/ALTERNATES/s1200/0_GettyImages-1231262826.jpg"
             }
             className="card-img-top"
             alt={title}

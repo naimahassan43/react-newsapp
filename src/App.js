@@ -7,7 +7,7 @@ export default class App extends Component {
     return (
       <div>
         <NavBar />
-        <News pageSize={3} />
+        <News pageSize={6} country="GB" category="sports" />
       </div>
     );
   }
