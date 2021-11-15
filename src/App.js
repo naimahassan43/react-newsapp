@@ -43,6 +43,17 @@ export default class App extends Component {
               }
             />
             <Route
+              path="general"
+              element={
+                <News
+                  key="general"
+                  pageSize={6}
+                  country="GB"
+                  category="general"
+                />
+              }
+            />
+            <Route
               path="health"
               element={
                 <News

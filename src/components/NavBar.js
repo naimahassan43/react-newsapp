@@ -35,11 +35,7 @@ export class NavBar extends Component {
                     Home
                   </Link>
                 </li>
-                {/* <li className="nav-item">
-                  <Link className="nav-link" to="/general">
-                    General
-                  </Link>
-                </li> */}
+
                 <li className="nav-item">
                   <Link className="nav-link" to="/business">
                     Business
@@ -48,6 +44,12 @@ export class NavBar extends Component {
                 <li className="nav-item">
                   <Link className="nav-link" to="/entertainment">
                     Entertainment
+                  </Link>
+                </li>
+
+                <li className="nav-item">
+                  <Link className="nav-link" to="/general">
+                    General
                   </Link>
                 </li>
 
